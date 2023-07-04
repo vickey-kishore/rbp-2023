@@ -34,7 +34,7 @@ const AddMovieForm = () => {
         },
       })
       if (response.status == 200) {
-        alert("Ticket booked!!!");
+        alert("New Movie Added!");
         navigate('/AllMovie');
       }
     } catch (error) {
